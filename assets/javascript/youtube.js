@@ -195,7 +195,7 @@ function showVideos(item) {
     '<img src="'+thumb+'">' +
     '</div>' +
     '<div class="list-right">' +
-    '<h3><a class="fancybox fancybox.iframe" href="http://wwww.youtube.com/embed/'+videoId+'">'+title+'</a></h3>' +
+    '<h3><a data-fancybox href="http://www.youtube.com/embed/'+videoId+'">'+title+'</a></h3>' +
     '<small>By <span class="cTitle">'+channelTitle+'</span> on '+publishedAt+'</small>' +
     '<p>'+description+'</p>' + 
     '</div>' +
